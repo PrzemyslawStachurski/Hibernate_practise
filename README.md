@@ -4,7 +4,7 @@ The purpose of these projects was to familiarize myself with these technolgies.
 The most notable project in this repository cointains fully functional REST API.
 It allows logged in users to retrieve list of employees, create, delete and update them.
 
-### **By creating these projects ai learned the following aspects, skills and technolgies.**
+### **By creating these projects I learned the following aspects, skills and technolgies.**
 -REST API architecture concept
 -Service design pattern
 -Connecting Java application to Database
