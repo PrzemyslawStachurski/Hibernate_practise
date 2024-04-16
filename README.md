@@ -32,7 +32,7 @@ DELETE:
   - /employees/employeeId
 
 
-### **Funtionalities:**
+### **Functionalities:**
 - To access API users must be logged in, ceredntials are retrieved from the database.
 - Requiring users to log in before accesing endpoints
 - Only users with appropriate roles can acces specific endpints eg. user with role employeee may use GET endpoint, user with manager role may use DELETE enpoint.
