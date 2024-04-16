@@ -1,4 +1,4 @@
-This Repository contains series of basic projects using mainly SPRING BOOT and HIBERNATE. 
+This Repository contains series of basic projects using mainly **SPRING BOOT** and it`s dependencies. 
 The purpose of these projects was to familiarize myself with these technolgies. 
 
 The most notable project in this repository cointains fully functional REST API.
