@@ -1,11 +1,39 @@
-Repository containing multiple projects related to Java Spring development
+This Repository contains series of basic projects using mainly SPRING BOOT and HIBERNATE. 
+The purpose of these projects was to familiarize myself with these technolgies. 
 
-cruddemo - contains small console app with local db integration using hibernate
+The most notable project in this repository cointains fully functional REST API.
+It allows logged in users to retrieve list of employees, create, delete and update them.
 
-demo - contains rest api for managing students, 
+### **By creating these projects ai learned the following aspects, skills and technolgies.**
+-REST API architecture concept
+-Service design pattern
+-Connecting Java application to Database
+-Serialization and deserialization 
+-Using Path Variables in urls
+-Creating custom queries while retrieving from database
+-Restricting users access based on their role
 
-employeecrud spring data jpa - same features as employeeecrud but implemented using spring data jpa dependency instead of using entity manager. 
 
-employeecrud - REST API connected with local database, implements Data Access Objects and Service layer to communicate with database
+### **Each Employee cointains:**
+  -first name
+  -last name
+  -email
 
-rest security - 
+
+### **Endpints:**
+GET:
+  - /employees
+  - /employees/employeeId
+POST:
+  - /employees
+PUT:
+  - /employees
+DELETE:
+  - /employees/employeeId
+
+
+###**Funtionalities:**
+- To access API users must be logged in, ceredntials are retrieved from the database.
+- Requiring users to log in before accesing endpoints
+- Only users with appropriate roles can acces specific endpints eg. user with role employeee may use GET endpoint, user with manager role may use DELETE enpoint.
+- Employees are stored in the database
