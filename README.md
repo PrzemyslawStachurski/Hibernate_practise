@@ -24,10 +24,13 @@ It allows logged in users to retrieve list of employees, create, delete and upda
 GET:
   - /employees
   - /employees/employeeId
+    
 POST:
   - /employees
+    
 PUT:
   - /employees
+    
 DELETE:
   - /employees/employeeId
 
